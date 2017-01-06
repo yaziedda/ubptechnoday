@@ -1,0 +1,80 @@
+Basic Programming and Database
+Techno Meetup 2
+27 Jan 2017
+
+Yazied DA
+yazieddabr@gmail.com
+
+* Topik yang akan di bahas
+
+- Apa itu pemograman?
+- Cara cepat mempelajari bahasa pemograman
+- C
+- D
+
+* Apa itu pemograman?
+
+Pemograman adalah 
+
+* Cara cepat mempelajari bahasa pemograman
+
+Point untuk cepat mempelajari bahasa pemograman :
+
+- Algoritma
+- Print
+- Type Data
+- Statement
+- Loop
+- Array
+
+* Algoritma
+
+Algoritma adalah suatu urutan dari beberapa langkah yang logis guna menyelesaikan masalah.
+
+* Print
+
+php :
+
+	echo "Hello world";
+
+c++ :
+
+	cout << "Hello world"; 
+
+phyton :
+	
+	print("Hello world")
+
+java :
+
+	System.out.println("Hello world");
+
+go :
+
+	fmt.Println("Hello world")
+
+* Type Data
+
+Type Data adalah jenis nilai yang dapat ditampung oleh suatu variabel
+
+Jenis Type Data yang umum :
+
+- Integer ( Angka )
+- String ( Huruf atau karakter )
+- Boolean ( Pernyataan benar atau salah )
+
+* Definisi Type Data 
+PHP
+
+	$angka = 123; // type data angka
+	$huruf = "huruf"; // type data huruf
+	$pernyataan = false; **type data pernyataan atau boolean**
+
+* Statement
+* Defisni
+Statement adalah *tanggapan* *terhadap* *pernyataan*
+
+Jenis - jenisnya :
+
+- IF ELSE
+- SWITCH CASE
