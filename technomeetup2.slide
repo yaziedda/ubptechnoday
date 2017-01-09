@@ -9,8 +9,6 @@ yazieddabr@gmail.com
 
 - Apa itu pemograman?
 - Cara cepat mempelajari bahasa pemograman
-- C
-- D
 
 * Apa itu pemograman?
 
@@ -66,9 +64,53 @@ Jenis Type Data yang umum :
 * Definisi Type Data 
 PHP
 
-	$angka = 123; // type data angka
-	$huruf = "huruf"; // type data huruf
-	$pernyataan = false; **type data pernyataan atau boolean**
+	$angka = 123;
+	$huruf = "huruf";
+	$pernyataan = false;
+C++
+
+	int angka = 123;
+	string huruf = "ini huruf";
+	bool pernyataan = false;
+
+Phyton
+
+	angka = 123
+	huruf = "ini huruf"
+	pernyataan = false
+
+* Definisi Type Data 
+
+Java
+
+	int angka = 123;
+	String huruf = "ini huruf";
+	boolean pernyataan = false;
+
+	int angka;
+	String huruf;
+	boolean pernyataan;
+
+	angka = 123;
+	huruf = "ini huruf";
+	pernyataan = true;
+
+* Definisi Type Data 
+
+GO
+
+	angka := 123
+	huruf := "Ini huruf"
+	pernyataan := false
+
+	var angka int64
+	var huruf string
+	var pernyataan bool
+
+	angka = 123
+	huruf = "ini huruf"
+	pernyataan = false
+
 
 * Statement
 * Defisni
@@ -78,3 +120,100 @@ Jenis - jenisnya :
 
 - IF ELSE
 - SWITCH CASE
+
+* IF ELSE
+
+* IF ELSE
+
+PHP
+
+	$angka = 1;
+
+	if($angka == 1){
+		do action
+	}else{
+		do action
+	}
+
+	if($angka == 1){
+		do action
+	}else if($angka == 2){
+		do action
+	}else{
+		do action
+	}
+
+* IF ELSE
+
+C++
+
+	int angka = 1;
+
+	if(angka == 1){
+		do action
+	}else{
+		do action
+	}
+
+	if(angka == 1){
+		do action
+	}else if(angka == 2){
+		do action
+	}else{
+		do action
+	}
+* IF ELSE
+Phyton
+
+	angka = 1
+
+	if angka == 1:
+		do action
+	else:
+		do action
+
+	if angka == 1:
+		do action
+	elif angka == 2:
+		do action
+	elif angka == 3:
+		do action
+
+* IF ELSE
+Java
+
+	int angka = 1;
+
+	if(angka == 1){
+		do action
+	}else{
+		do action
+	}
+
+	if(angka == 1){
+		do action
+	}else if(angka == 2){
+		do action
+	}else{
+		do action
+	}
+* IF ELSE
+GO
+
+	angka := 1
+
+	if angka == 1 {
+		do action
+	}else {
+		do action
+	}
+
+	if angka == 1 {
+		do action
+	}else if angka == 2{
+		do action
+	}else {
+		do action
+	}
+
+* SWITCH CASE
