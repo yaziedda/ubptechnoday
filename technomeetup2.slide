@@ -217,3 +217,169 @@ GO
 	}
 
 * SWITCH CASE
+* SWITCH CASE
+
+PHP
+
+	$angka = 1;
+
+	switch ($angka){
+		case 1:
+			do action
+			break;
+		case 2:
+			do action
+			break;
+		default:
+			do action
+			break;
+	}
+
+* SWITCH CASE
+
+C++
+
+	int angka = 1;
+
+	switch (angka){
+		case 1:
+			do action
+			break;
+		case 2:
+			do action
+			break;
+		default:
+			do action
+			break;
+	}
+* SWITCH CASE
+Phyton
+
+Doesn't have switch case
+
+The official answer says, "You can do this easily enough with a sequence of if... elif... elif... else". And that you can use dictionary mapping for functions and dispatch methods for classes.
+
+	def numbers_to_strings(argument):
+		
+		switcher = {
+			0: "zero",
+			1: "one",
+			2: "two",
+		}
+
+		return switcher.get(argument, "nothing")
+
+* SWITCH CASE
+Java
+
+	int angka = 1;
+
+	switch (angka){
+		case 1:
+			do action
+			break;
+		case 2:
+			do action
+			break;
+		default:
+			do action
+			break;
+	}
+
+* SWITCH CASE
+GO
+
+	angka := 1
+
+	switch angka {
+		case 1:
+			do action
+			break;
+		case 2:
+			do action
+			break;
+		default:
+			do action
+			break;
+	}
+
+* Looping
+* Looping 
+Macam-macam looping
+
+- while
+- do...while
+- for
+- foreach
+* Looping
+
+PHP
+
+	for ($i = 0; $i <= 10; $i++) {
+		echo "nomor ke : $i <br>";
+	}
+
+* Looping
+
+C++
+
+	for( int a = 0; a < 10; a = a + 1 ) {
+		cout << "nomor ke : " << a << endl;
+	}
+* Looping
+Phyton
+
+	for i in range(0, 3):
+		print "nomor ke %d" % (i)
+
+* Looping
+Java
+
+	for(int i=0; i < 10; i++){
+		System.out.println("nomor ke "+i)
+	}
+
+* Looping
+GO
+
+	for i := 0; i < 10; i++ {
+		fmt.Println("nomor ke ", i)
+	}
+
+* Array
+* Array
+
+PHP
+
+	$data = array("mobil", "motor", "sepeda");
+
+	for ($i = 0; $i <= count($data); $i++) {
+		echo "data kita : $data[$i] <br>";
+	}
+
+* Looping
+
+C++
+
+	for( int a = 0; a < 10; a = a + 1 ) {
+		cout << "nomor ke : " << a << endl;
+	}
+* Looping
+Phyton
+
+	for i in range(0, 3):
+		print "nomor ke %d" % (i)
+
+* Looping
+Java
+
+	for(int i=0; i < 10; i++){
+		System.out.println("nomor ke "+i)
+	}
+
+* Looping
+GO
+
+	for i := 0; i < 10; i++ {
+		fmt.Println("nomor ke ", i)
+	}
