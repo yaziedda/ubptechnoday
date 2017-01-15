@@ -2,19 +2,39 @@ Basic Programming and Database
 Techno Meetup 2
 27 Jan 2017
 
+Divisi Pendidikan & RISTEK HIMATIF
 Yazied DA
-yazieddabr@gmail.com
 
 * Topik yang akan di bahas
 
 - Apa itu pemograman?
-- Cara cepat mempelajari bahasa pemograman
+- Pengenalan dasar di bahasa pemograman
+- Pengenalan Database
 
 * Apa itu pemograman?
 
-Pemograman adalah 
+Pemograman adalah proses menulis,menguji dan memperbaiki ( debug ), dan memelihara kode yang membangun sebuah program komputer.
 
-* Cara cepat mempelajari bahasa pemograman
+* Bagaimana menulis dan membuat program?
+
+- Text Editor
+- Compiler
+
+* Compiler 
+
+Compiler adalah compiler / kompilator adalah adalah sebuah program komputer yang berguna untuk menerjemahkan program komputer yang ditulis dalam bahasa pemrograman tertentu menjadi program yang ditulis dalam bahasa pemrograman lain.
+
+Arsitektur kompilator modern biasanya bukan lagi merupakan program tunggal namun merupakan rangkaian komunikasi antar program dengan tugas spesifik masing-masing. Program-program tersebut beserta tugasnya secara umum terdiri dari:
+
+- Kompilator itu sendiri, yang menerima kode sumber dan menghasilkan bahasa tingkat rendah (assembly)
+- Assembler, yang menerima keluaran kompilator dan menghasilkan berkas objek dalam bahasa mesin
+- Linker, yang menerima berkas objek keluaran assembler untuk kemudian digabungkan dengan pustaka-pustaka yang diperlukan dan menghasilkan program yang dapat dieksekusi (executable)
+
+* Compiler
+
+.image image/compiler.png 500 _
+
+* Pengenalan bahasa pemograman
 
 Point untuk cepat mempelajari bahasa pemograman :
 
@@ -357,29 +377,54 @@ PHP
 		echo "data kita : $data[$i] <br>";
 	}
 
-* Looping
+* Array
 
 C++
 
-	for( int a = 0; a < 10; a = a + 1 ) {
-		cout << "nomor ke : " << a << endl;
+	string data[3] = {"data 1", "data 2", "data 3"};
+
+	for( int a = 0; a < 3; a = a + 1 ) {
+		cout << "data ke : " << data[a]<< endl;
 	}
-* Looping
+
+* Array
 Phyton
 
-	for i in range(0, 3):
-		print "nomor ke %d" % (i)
+	data = ['data 1', 'data 2', 'data 3']
 
-* Looping
+	for data in data:
+		print "data ke :  %s" % data
+
+* Array
 Java
 
-	for(int i=0; i < 10; i++){
-		System.out.println("nomor ke "+i)
+	String[] datanya = {"data 1", "data 2", "data 3"};
+
+	for(int i=0; i < datanya.length; i++){
+		System.out.println("cetak data ke "+datanya[i])
 	}
 
-* Looping
+* Array
 GO
 
-	for i := 0; i < 10; i++ {
-		fmt.Println("nomor ke ", i)
+	data := [...]string{"data","data 2","data 3"}
+	
+	for i := 0; i < len(data); i++ {
+		fmt.Println("datanya ", data[i])
 	}
+* Trend
+.image ../image/trend.jpg 500 _
+* Database
+* Database
+Database adalah kumpulan informasi yang disimpan di dalam komputer secara sistematik sehingga dapat diperiksa menggunakan suatu program komputer untuk memperoleh informasi dari basis data tersebut.
+
+* Database
+Saat ini database di bagi menjadi 2, SQL dan NoSQL :
+.image ../image/sqlvnosql.png 500 _
+
+* Database yang umum di gunakan
+SQL Family
+.image ../image/sql.jpg 300 _
+
+* Database baru : NoSQL
+.image ../image/nosql.png 500 _
